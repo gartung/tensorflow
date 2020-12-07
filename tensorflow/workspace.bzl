@@ -494,6 +494,7 @@ def tf_repositories(path_prefix = "", tf_repo_name = ""):
             "https://storage.googleapis.com/mirror.tensorflow.org/github.com/grpc/grpc/archive/b54a5b338637f92bfcf4b0bc05e0f57a5fd8fadd.tar.gz",
             "https://github.com/grpc/grpc/archive/b54a5b338637f92bfcf4b0bc05e0f57a5fd8fadd.tar.gz",
         ],
+        patch_file = clean_dep("//third_party:grpc.generate_cc.bzl.patch"),
     )
 
     tf_http_archive(
