@@ -15,6 +15,8 @@ limitations under the License.
 
 #include "tensorflow/tsl/platform/denormal.h"
 
+#include <cstdint>
+
 #include "tensorflow/tsl/platform/cpu_info.h"
 #include "tensorflow/tsl/platform/platform.h"
 
